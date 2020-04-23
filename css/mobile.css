@@ -1,0 +1,11 @@
+@media (max-width: 600px) { 
+    body{
+        background: palegreen;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        background-color: thistle;
+    }
+}
