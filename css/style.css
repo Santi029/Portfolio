@@ -1,0 +1,533 @@
+#practica-flex {
+    width: 100%;
+    border: 2px solid red;
+    height: 500px;
+}
+
+#wrap-flex {
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    border: 2px solid rgb(0, 194, 136);
+    height: inherit;
+}
+
+.flex-title {
+    width: 100px;
+    height: 50px;
+    background-color: palevioletred ;
+    border: 2px dashed palegoldenrod;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+mycolors {
+    background-color: #2C2C2C;
+    color: #0093D7;
+    border-color: #4C4C4C;
+    color: #CCCCCC;
+}
+ 
+body {
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+    width: 100%;
+    margin: 0px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+main h1, main h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.0em;
+    color: #2C2C2C;
+}
+
+h2,h3,h4,h5,h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.p-subtitle {
+    width: 80%;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.h1strong {
+    color: #0093D7;
+    font-size: 2.0em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.h2sectiontitle {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+}
+
+.contentarea {
+    height: auto;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+
+
+/*This is the Info & Social Header Section = contactinfo + socialinfo*/
+#main-social {
+    background-color: #2C2C2C;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#sub-social {
+    background-color: #0093D7;
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+.address {
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.email {
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone {
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socialiconsarea{
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*This is the Main Header Section = logo + menu*/
+#main-header {
+    background-color: #2C2C2C;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    width: 100%;
+}
+
+#sub-header {
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo-menu {
+    vertical-align: middle;
+    width: 15%;
+}
+
+#header-logo {
+    width: 125px;
+    height: auto;
+    padding-left: 10px;
+}
+
+#navigation {
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*This is the Slideshow Section  = background + texto*/
+#main-slideshow {
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: right;
+    background-color: #2C2C2C;
+}
+
+#sub-slideshow {
+    background-image: url(/images/working\ designer\ with\ coffee.jpg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+#slideshow-text {
+    padding: 75px;
+    text-align: center;
+}
+
+#buttons {
+    width: 200px;
+    height: 30px;
+    background-color: #4C4C4C;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+}
+
+
+/*This is the skills Section = logos + text*/
+#main-skills {
+    width: 100%;
+    background-color: #2C2C2C;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+}
+
+#sub-skills {
+    background-color: #0093D7;
+    width: 65%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#skills-boxes{
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+.skill-box {
+    background-color: #CCCCCC;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border-bottom-color: #4C4C4C;
+    border-style: solid;
+    border-left-color: #CCCCCC;
+    border-top-color: #CCCCCC;
+    border-right-color: #4C4C4C;
+
+}
+
+.skill-image {
+    width: auto;
+    height: 100px;
+}
+
+
+/*This is the About Section  = text + image*/
+#main-about {
+    background-color: #2C2C2C;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+
+#sub-about {
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+
+#about-wrap {
+    display: inline-flex;
+    flex-flow: wrap row;
+    width: 30%;
+    padding: 50px;
+    box-sizing: content-box;
+    vertical-align: middle;
+}
+
+#about-image {
+    display: inline-flex;
+    flex-flow: wrap;
+    border-radius: 10px;
+    border-bottom-color: #4C4C4C;
+    border-style: solid;
+    border-left-color: #0093D7;
+    border-top-color: #0093D7;
+    border-right-color: #4C4C4C;
+}
+
+#about-section {
+    width: 500px;
+    padding: 20px;
+
+}
+
+#about-section h2, h3, h4, p, li {
+    color: #2C2C2C;
+}
+/*This is My Tools Section = tools + tecnologies + text*/
+#main-tools {
+    background-color: #2C2C2C;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#sub-tools {
+    background-color: #CCCCCC;
+    width: 65%;  
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#text-tools {
+    padding: 20px;
+}
+
+#tools-images {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.tool-image {
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*This is the Last Works Section = text*/
+#main-works {
+    background-color: #2C2C2C;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+#sub-works {
+    width: 65%;
+    background-color: #FFF;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#work-header {
+    padding: 20px;
+    color: #2C2C2C;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#work-areas {
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#article-areas {
+    background-color: #CCCCCC;
+    border: solid 3px #0093D7;
+    height: auto;
+    margin: 20px;
+    width: 250px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+}
+
+#article-image-wrap {
+    width: 250%;
+    height: auto;
+    object-fit: fill;
+}
+
+#article-image {
+    width: auto;
+    height: 250px;
+    background-color: #CCCCCC;
+}
+
+#article-description {
+    background-color: white;
+    margin-top: -80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+#description {
+    background-color: #CCCCCC;
+}
+
+/*This is the Email Section = text and email form*/
+
+
+
+#main-email {
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+    background-color: #2C2C2C;
+}
+
+#sub-email {
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+    background-color: #0093D7;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#sub-email p {
+    padding: 20px;
+}
+
+#input-email {
+    width: 20%;
+}
+
+#email-form {
+    text-align: center;
+}
+/*This is the Footer Section = text + conctact info + social icons*/
+#main-footer {
+    color: white;
+    background-color: #2C2C2C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    flex-flow: wrap column;
+    align-content: center;
+}
+ 
+#sub-footer {
+    background-color: #2C2C2C;
+    width: 65%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    align-content: center;
+}
+
+#footer-info {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#footer-address {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: wrap row;
+    align-content: space-around;
+}
+
+#footer-email {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: wrap row;
+    align-content: space-around;
+}
+
+#footer-phone {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: wrap row;
+    align-content: space-around;
+}
+
+#footer-socialiconsarea {
+    text-align: center;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+    align-content: center;
+}
+
+#footer-link {
+    background-color: #2C2C2C;
+    width: 29%;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    justify-content: right;
+}
+
+#main-footer a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+#footer-images {
+    padding-left: 5px;
+    padding-right: 5px;
+}
